@@ -2,7 +2,7 @@
 This is a WordPress theme based on WordPress.org's **TwentyTwelve** theme.  
 
 ##How To
-This is a [child theme](http://codex.wordpress.org/Child_Themes), so you should need to have the parent theme (TwentyTwelve) in the parent folder:  
+This is a [child theme](http://codex.wordpress.org/Child_Themes), so you need to have the parent theme (TwentyTwelve) in the parent folder:  
   
     wordpress_root/
     └── wp-conent/
