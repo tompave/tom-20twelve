@@ -1,0 +1,231 @@
+/*
+Theme Name: 		tom-20twelve
+Author: 				@wonderingtomato
+Author URI: 		http://blog.wonderingmachine.com
+Version: 				0.1
+License: 				GNU General Public License v2 or later
+License 				URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template:       twentytwelve
+*/
+
+@import url("../twentytwelve/style.css");
+
+body {
+	background-image: url(gray_jean.png);
+}
+
+.site {
+	margin-top: 0px !important;
+	margin-bottom: 10px !important;
+}
+
+#wm_title_box {
+	position: relative;
+}
+
+#masthead {
+	padding-top: 10px !important;
+	padding-bottom: 0px !important;
+	margin-bottom: 14px;
+}
+
+.header-image {
+	margin-top: 0px !important;
+}
+
+.site-title {
+	display: inline-block;
+	position: absolute;
+	top: 40%;
+	left: 4%;
+
+	text-shadow: 0 0 3px #222;
+
+	line-height: 32px !important;
+	margin: 0px !important;
+}
+
+.site-title-small {
+	display: none;
+	position: static;
+
+	text-align: center;
+	margin: 5px auto;
+
+	color: #333;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+	.site-title 			{ display: none; }
+	.site-title-small { display: block; }
+}
+
+
+
+
+
+
+a {
+	color: #2f84c5 !important;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF4C00 !important;
+	text-decoration: underline;
+}
+
+
+
+
+
+/* navbar */
+
+.nav-menu > ul {
+	height: 30px !important;
+}
+.nav-menu > ul > li {
+	height: inherit !important;
+	margin: 0 20px 0 0 !important;
+	padding: 0 4px;
+}
+.nav-menu > ul > li > a {
+	color: #444 !important;
+	line-height: 30px !important;
+	text-transform: none;
+}
+.nav-menu > ul > li > a:hover {
+	color: #FF4C00 !important;
+}
+
+.menu-toggle {
+	width: 40%;
+	height: 20px;
+	font-weight: bold;
+	padding-top: 10px
+}
+
+@media screen and (max-width: 600px) {
+	.nav-menu { margin-bottom: 24px; }
+	.nav-menu > ul > li { margin: 0px !important; }
+}
+
+
+/* footer */
+
+#colophon { padding: 10px 0px; }
+.site-info { color: #aaa !important; }
+.site-info > a { color: #333 !important; }
+
+
+
+
+
+/* side bar */
+
+#secondary {
+	text-align: right !important;
+	color: #999;
+}
+
+.widget {
+	margin-bottom: 24px !important;
+}
+
+.widget-title {
+	margin-bottom: 0px !important;
+}
+
+
+
+
+
+
+/* Blog Post */
+.entry-header { position: relative; }
+
+.wm_title_meta {
+	position: absolute;
+	right: 3px;
+	top: -17px;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 319px) {
+	.wm_category { display: none; }
+}
+.wm_category { color: #aaa; }
+.wm_category_name > a { color: #777 !important; }
+.wm_category_name > a:hover { color: #FF4C00 !important; }
+
+.wm_post_date {
+	color: #555 !important;
+	font-size: 14px;
+}
+
+
+.entry-title {
+	background-image: url(gray_jean.png);
+	box-shadow: inset 0 0 4px #333;
+	border-radius: 4px;
+	padding: 3px 5px;
+}
+
+.entry-title > a { color: #000 !important; }
+.entry-title > a:hover {
+	color: #000 !important;
+	text-decoration: underline !important;
+}
+
+
+.entry-content {
+	text-align: justify;
+}
+
+code {
+	border-radius: 3px;
+	padding: 1px 2px 0px;
+	background-color: #ddd;
+	color: #000;
+	font-family: "Consolas", Courier, monospace !important;
+	font-size: 1em !important;
+}
+
+
+pre {
+	border: 1px solid #ccc !important;
+	border-radius: 6px;
+	background-color: #efefef;
+}
+
+
+
+.wm_post_tag_list > a { color: #aaa !important; }
+.wm_post_tag_list > a:hover { color: #FF4C00 !important; }
+
+.comments-link > a { color: #777 !important; }
+.comments-link > a:hover { color: #FF4C00 !important; }
+
+.post-edit-link { color: #777 !important; }
+
+
+
+
+
+/* Post Comments */
+
+.avatar-44 {
+	border-radius: 3px !important;
+}
+
+.comment-content > p {
+	margin-bottom: 5px !important;
+	text-align: justify;
+}
+
+.comment-meta {
+	margin-bottom: 14px !important;
+}
+
