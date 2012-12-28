@@ -2,7 +2,7 @@
 This is a WordPress theme based on WordPress.org's **TwentyTwelve** theme.  
 
 ##How To
-This is a [child theme](http://codex.wordpress.org/Child_Themes), so you need to have the parent theme (TwentyTwelve) in the parent folder:  
+Since this is a [child theme](http://codex.wordpress.org/Child_Themes),in order to use it you will need to have the parent theme ([TwentyTwelve](http://wordpress.org/extend/themes/twentytwelve)) in your server as well: 
   
     wordpress_root/
     └── wp-content/
@@ -10,5 +10,7 @@ This is a [child theme](http://codex.wordpress.org/Child_Themes), so you need to
     		├── twentytwelve/
     		└── tom-20twelve/
 
-Also, this theme has been designed to use a 960px wide header.  
-Ideally, it should be 960x256. If you want to use one with a different height, you might also want to change the position of `h1.site-title`.
+Please notice that this theme has been designed to use a 960px wide header.  
+The ideal size is 960x256. If you plan to use an image with a different height, you might consider changing the position of `h1.site-title`.  
+##Demo
+You can see how the theme looks like on [my blog](http://blog.wonderingmachine.com).
